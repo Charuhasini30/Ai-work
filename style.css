@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  header.hero {
+    background: linear-gradient(to right, #8e44ad, #3498db);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #8e44ad;
+    font-weight: 600;
+  }
+  
+  .nav-links a:hover {
+    color: #3498db;
+  }
+  
+  /* Card Sections */
+  .section.card {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 700px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    color: #8e44ad;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn {
+    background: linear-gradient(to right, #8e44ad, #3498db);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(52, 152, 219, 0.6);
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #8e44ad;
+    color: white;
+  }
+  
